@@ -1,0 +1,11 @@
+.content {
+	@apply container grid grid-cols-2 gap-5 md:grid-cols-4;
+
+	&_heading {
+		@apply text-lightBrown;
+	}
+
+	&_list {
+		@apply mt-5 grid auto-cols-auto gap-2;
+	}
+}

@@ -1,0 +1,12 @@
+.section {
+	@apply mt-10 grid grid-cols-1 place-items-center gap-x-5
+	gap-y-10 md:grid-cols-2;
+}
+
+.img_container {
+	@apply max-h-[480px] max-w-[500px] overflow-hidden rounded-3xl md:h-[440px] md:w-[350px] xl:h-[480px] xl:w-[500px];
+}
+
+.card_title {
+	@apply mt-5 flex items-center justify-between font-main text-3xl;
+}

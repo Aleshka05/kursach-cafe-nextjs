@@ -1,0 +1,14 @@
+.wrapper {
+	@apply relative py-2;
+	.navigation {
+		@apply absolute right-0 z-50 mt-5 hidden h-[60px] w-[120px] md:block;
+
+		& > button {
+			@apply ml-2 rounded-full bg-black;
+
+			&:hover {
+				@apply -translate-y-2;
+			}
+		}
+	}
+}

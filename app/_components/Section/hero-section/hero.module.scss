@@ -1,0 +1,15 @@
+.hero_section {
+	@apply grid grid-flow-row auto-rows-min place-items-center;
+}
+
+.fill_circle {
+	@apply h-[200px] w-[200px] rounded-full bg-black;
+}
+
+.rounded_circle {
+	@apply absolute -left-7 -top-5 h-[200px] w-[200px] rounded-full border-[10px] border-mainBrown;
+}
+
+.hero_second_title {
+	@apply rounded-xl bg-black px-5 pt-2 text-secondaryBrown md:mt-4 md:rounded-2xl xl:rounded-3xl;
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.transition-settings {
+		@apply transition-all delay-75 duration-150 ease-in-out;
+	}
+
+	.heading-large {
+		@apply font-main text-4xl md:text-6xl xl:text-9xl;
+	}
+
+	.heading-medium {
+		@apply font-main text-3xl md:text-5xl;
+	}
+}

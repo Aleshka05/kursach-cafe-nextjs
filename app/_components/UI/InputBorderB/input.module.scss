@@ -1,0 +1,13 @@
+.input {
+	@apply w-full cursor-pointer rounded-lg border border-mainBrown bg-secondaryBrown px-4 py-3 text-lg outline-none;
+
+	&:focus {
+		&::placeholder {
+			@apply opacity-0;
+		}
+	}
+
+	&::placeholder {
+		@apply text-black/30;
+	}
+}

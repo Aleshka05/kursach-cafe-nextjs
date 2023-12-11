@@ -1,0 +1,36 @@
+.wrapper {
+	@apply grid grid-flow-row place-content-center place-items-center gap-10;
+}
+
+.form_gift {
+	@apply grid w-full grid-flow-row gap-10;
+
+	.amount {
+	}
+}
+
+.select_amount {
+	@apply w-full cursor-pointer rounded-lg border border-mainBrown bg-secondaryBrown px-4 py-3 text-lg;
+}
+
+.input {
+	@apply w-full cursor-pointer rounded-lg border border-mainBrown bg-secondaryBrown px-4 py-3 text-lg outline-none;
+
+	&:focus {
+		&::placeholder {
+			@apply opacity-0;
+		}
+	}
+
+	&::placeholder {
+		@apply text-black/30;
+	}
+}
+
+.heading_border {
+	@apply place-self-start border-b-2 border-mainBrown px-2 pb-2 text-xl;
+}
+
+.box_input {
+	@apply transition-settings mt-1 p-1 active:bg-mainGray/10;
+}
